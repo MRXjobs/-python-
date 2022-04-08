@@ -1,0 +1,9 @@
+time = int(input('目标次数:'))
+data = input('输入你想要刷的字符:')
+number = 1
+print(time)
+while time > 0:
+    print(number,'.',data)
+    number = number + 1
+    time = time - 1
+print('========================Finish!========================')
